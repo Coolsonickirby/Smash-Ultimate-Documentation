@@ -254,7 +254,7 @@ Contains options to the respective nus3audio file. Used for Volume, whether the 
 
 You can use the following program to modify nus3bank files:
 
-- [nus3bank-volume-GUI](https://github.com/Pacil142857/nus3bank-volume-GUI) (Windows/MacOS/Linux)
+- [nus3bank-volume-GUI](https://github.com/Pacil142857/nus3bank-volume-GUI) (Windows)
 
 ## nus3conf
 Unknown.

@@ -1,3 +1,26 @@
 site_name: Super Smash Bros. Ultimate Modding Documentation
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_autoplay: False
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: amber
+  features:
+    - navigation.instant
+nav:
+  - index.md
+  - Prerequisites:
+    - "./Prerequisites/Dumping the data.arc.md"
+  - File Formats.md
+  - Modding:
+    - "./Modding/Audio.md"
+    - "./Modding/Textures.md"
+  - Reverse Engineering:
+    - "./Reverse Engineering/Ghidra.md" 
+    - "./Reverse Engineering/GDB.md" 
+    - Walkthroughs:
+      - "./Reverse Engineering/Walkthroughs/Disabling Auto-Play on Playlist Music Selection.md"
