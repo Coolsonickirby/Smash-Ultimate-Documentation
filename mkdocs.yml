@@ -19,6 +19,7 @@ nav:
   - Modding:
     - "./Modding/Audio.md"
     - "./Modding/Textures.md"
+  - "Setting up the Skyline Enviorment.md"
   - Reverse Engineering:
     - "./Reverse Engineering/Ghidra.md" 
     - "./Reverse Engineering/GDB.md" 

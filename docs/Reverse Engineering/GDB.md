@@ -1,6 +1,6 @@
 # GDB Setup
 
-# Disclaimer
+## Disclaimer
 GDB will only work for the switch console itself! That means you cannot use an emulator (Ryujinx or Yuzu) as a subsititue!
 
 ## Setup
