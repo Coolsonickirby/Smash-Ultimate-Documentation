@@ -1,13 +1,13 @@
 # Setting up the Skyline Development Enviorment
 
 ## Requirements
-   - [Cargo](https://www.rust-lang.org/tools/install) (Windows/MacOS/Linux)
+   - [rustup](https://www.rust-lang.org/tools/install) (Windows/MacOS/Linux)
    - [git](https://git-scm.com/downloads) (Windows/MacOS/Linux)
    - cargo-skyline
 
 ## Installation
 1. Install [git](https://git-scm.com/downloads) (Follow the on-screen installer)
-2. Install [Cargo](https://www.rust-lang.org/tools/install) (Follow the instructions on the page)
+2. Install [rustup](https://www.rust-lang.org/tools/install) (Follow the instructions on the page)
 3. After the installation is complete, run `cargo install cargo-skyline`
 4. Once that's done, run `cargo skyline update-std`
 5. Finally, run `cargo skyline set-ip <Switch IP>`
