@@ -40,13 +40,13 @@ We have our offset, so now we can start having the real fun 😈! We'll go ahead
 Let's go ahead and enter `c`, then get to the Stage Selection Screen and open up a playlist. When we trying playing a song with the `Y` button, the game freezes! Don't worry though, your game didn't crash. GDB stopped the game and now you can run commands in GDB.
 ![GDB breaking on a function](../../img/Walkthroughs/Disabling%20Auto-Play%20on%20Playlist%20Music%20Selection/pic_5.png)
 
-We can enter our commands into GDB, we'll run the `usual` command to get the current $pc (pc being the current offset we're at in the code), the $lr (lr being the instruction that we'll jump back to after our function is over), and the backtrace (a list keeping track of which offset to jump back to).
-!['usual' command being run on manually played back song](../../img/Walkthroughs/Disabling%20Auto-Play%20on%20Playlist%20Music%20Selection/pic_6.png)
+We can enter our commands into GDB, we'll run the `print_trace` command to get the current $pc (pc being the current offset we're at in the code), the $lr (lr being the instruction that we'll jump back to after our function is over), and the backtrace (a list keeping track of which offset to jump back to).
+!['print_trace' command being run on manually played back song](../../img/Walkthroughs/Disabling%20Auto-Play%20on%20Playlist%20Music%20Selection/pic_6.png)
 
 Keeping a note of this output in case we need to compare it to another scenario will be extremely helpful the more deeper you dive into reversing.
 
-We'll continue (type `c` and hit enter) and try to select a song by choosing it this time. When we press `A` to choose the game, the game freezes again! Just like before, the function got called, so let's go ahead and run the `usual` command again.
-!['usual' command being run on chosen song](../../img/Walkthroughs/Disabling%20Auto-Play%20on%20Playlist%20Music%20Selection/pic_7.png)
+We'll continue (type `c` and hit enter) and try to select a song by choosing it this time. When we press `A` to choose the game, the game freezes again! Just like before, the function got called, so let's go ahead and run the `print_trace` command again.
+!['print_trace' command being run on chosen song](../../img/Walkthroughs/Disabling%20Auto-Play%20on%20Playlist%20Music%20Selection/pic_7.png)
 
 Oho? What's this? The third offset in the chosen song playback is different than the third offset in the manually chosen playback. That's pretty interesting. Let's go ahead and jump to the third offset in the chosen song playback in Ghidra.
 
@@ -71,7 +71,7 @@ Success! Congratulations! You have successfully reversed and patched the game to
 ## Converting into a Skyline Plugin
 We have our newfound knowledge on how to prevent the game from automatically playing the music when we pick a song, but now we have to manually no_op the function every time we want the game to not play the song. If we want to distribute this as a mod so that users can enjoy it, we can't expect them to have GDB and be willing to put up with manually noping the instruction themselves every time. That's where skyline plugins come in! We'll create a sklyine plugin that patches the offset with a `nop` instruction every time the game boots!
 
-So first, we'll run the usual `cargo skyline new <project_name>` to make a new skyline project. Then open up that folder with your favorite IDE (I'll be using VSCode).
+So first, we'll run the `cargo skyline new <project_name>` command to make a new skyline project. Then open up that folder with your favorite IDE (I'll be using VSCode).
 
 Go to `src/lib.rs` and remove the `println!(...)` line from the main function. Now make a new line in `main()` and write the following:
 `skyline::patching::Patch::in_text(0x1b352a8).nop().expect("Failed to patch 0x1b352a8")`

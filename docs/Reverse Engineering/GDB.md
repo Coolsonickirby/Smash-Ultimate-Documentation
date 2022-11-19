@@ -51,4 +51,4 @@ The .gdbinit file we set up earlier has these handful of functions that will be 
    - `break_at <offset>` -> Sets a breakpoint at an offset relative to the base of main
    - `localize <register/address>` -> Converts the value in the register (or the passed address) to an offset relative to the base of main
    - `xxd <address> <size>` -> Print a xxd dump of the address
-   - `usual` -> Runs `get_pc`, `localize $lr`, & `my_bt2` to get the current offset, the calling offset, and the backtrace in one command instead of three
+   - `print_trace` -> Runs `get_pc`, `localize $lr`, & `my_bt2` to get the current offset, the calling offset, and the backtrace in one command instead of three
