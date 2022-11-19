@@ -3,6 +3,7 @@ plugins:
   - mkdocs-video:
       is_video: True
       video_autoplay: False
+  - search
 theme:
   name: material
   palette:
