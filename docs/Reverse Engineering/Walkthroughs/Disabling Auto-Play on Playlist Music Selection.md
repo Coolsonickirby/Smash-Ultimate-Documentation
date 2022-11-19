@@ -48,7 +48,7 @@ Keeping a note of this output in case we need to compare it to another scenario 
 We'll continue (type `c` and hit enter) and try to select a song by choosing it this time. When we press `A` to choose the game, the game freezes again! Just like before, the function got called, so let's go ahead and run the `print_trace` command again.
 !['print_trace' command being run on chosen song](../../img/Walkthroughs/Disabling%20Auto-Play%20on%20Playlist%20Music%20Selection/pic_7.png)
 
-Oho? What's this? The third offset in the chosen song playback is different than the third offset in the manually chosen playback. That's pretty interesting. Let's go ahead and jump to the third offset in the chosen song playback in Ghidra.
+Oho? What's this? The second offset in the chosen song playback is different than the second offset in the manually chosen playback. This means that if we modify anything in the first offset, then it'll affect both, manually playing the song and the game automatically playing the song. That's pretty interesting. Let's go ahead and jump to the second offset in the chosen song playback in Ghidra since that's what we want to prevent.
 
 ## Tracking
 We can press `g` in Ghidra to jump to an offset. Although when we jump to an offset, we need to add `710` before the offset, since Ghidra starts at `710` (so in our case, we'll be jumping to `7101b352ac` in Ghidra)
