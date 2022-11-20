@@ -1,5 +1,7 @@
 # Smash Ultimate Documentation
 
+# [You can view the site here](https://coolsonickirby.github.io/Smash-Ultimate-Documentation/)
+
 ## How to run locally
 1. [Install mkdocs-material](https://squidfunk.github.io/mkdocs-material/getting-started/)
 2. `pip install mkdocs-video`
