@@ -9,7 +9,7 @@
 
 ## Converting a nutexb to an image (Switch Toolbox Only)
 1. Click `File -> Open` and select a nutexb file
-2. Right click on the mini-preview on the left side and press `Export`
+2. Right-click on the mini-preview on the left side and press `Export`
 3. Select the type of file you want to export it as at the bottom
     ![Selecting the file type to export as](../img/Textures/export.png)
 4. Press `Save`
@@ -17,7 +17,7 @@
 ## Converting a image to a nutexb
 ### Switch Toolbox
 1. Open a nutexb file to use as a base
-2. Right click on the mini-preview on the left side and press `Replace`
+2. Right-click on the mini-preview on the left side and press `Replace`
 3. Select your image
 4. Press `Ok`
 5. Click `File -> Save As` and save the nutexb

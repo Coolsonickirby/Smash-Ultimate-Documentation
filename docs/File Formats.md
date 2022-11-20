@@ -1,3 +1,5 @@
+# File Formats
+
 ## adjb
 Renormal mesh adjacency (according to the ssbh_editor github page).
 

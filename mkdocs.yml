@@ -13,12 +13,14 @@ theme:
 nav:
   - index.md
   - Prerequisites:
+    - "./Prerequisites/Modding Setup.md"
     - "./Prerequisites/Dumping the data.arc.md"
   - File Formats.md
   - Modding:
     - "./Modding/Audio.md"
     - "./Modding/Textures.md"
   - Skyline:
+    - "./Skyline/What is Skyline.md"
     - "./Skyline/Setting up the Skyline Development Environment.md"
   - Reverse Engineering:
     - "./Reverse Engineering/Ghidra.md" 

@@ -25,15 +25,15 @@
 9. You're done
 
 ## Dumping with Ryujinx
-1. Right click on `Super Smash Bros. Ultimate` game and select `Manage Title Updates`
+1. Right-click on `Super Smash Bros. Ultimate` game and select `Manage Title Updates`
 2. Make sure the latest update is selected and click `Ok`
-3. Right click on `Super Smash Bros. Ultimate` and click `Extract Data -> RomFS`
+3. Right-click on `Super Smash Bros. Ultimate` and click `Extract Data -> RomFS`
 4. Wait for Ryujinx to finish dumping `Super Smash Bros. Ultimate`
 5. You're done
 
 ## Dumping with Yuzu
-1. Right click on `Super Smash Bros. Ultimate` game and select `Properties`
+1. Right-click on `Super Smash Bros. Ultimate` game and select `Properties`
 2. Make sure the latest update is checked and click `OK`
-3. Right click on `Super Smash Bros. Ultimate` and click `Dump RomFS -> Dump RomFS`
+3. Right-click on `Super Smash Bros. Ultimate` and click `Dump RomFS -> Dump RomFS`
 4. Wait for Yuzu to finish dumping `Super Smash Bros. Ultimate`
 5. You're done
