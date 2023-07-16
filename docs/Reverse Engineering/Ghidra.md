@@ -13,8 +13,9 @@
 1. Click `File -> New Project`
 2. Select `Shared Project`
 3. Type `ghidra.arcropolis.com` in the `Server Name` field
-4. Check the `Request Anonymous Access` and hit `OK`
-5. Click `OK` on the `Anonymous Server Login` pop-up
-6. Select the `SmushLoaderino` repository and click `Next >>`
-7. Click `Finish` and wait
-8. Double click `main_1301 (Ghidra 10.1.2)` and the decompiled code will show up after loading
+4. Set the port field to be `37500`
+5. Check the `Request Anonymous Access` and hit `OK`
+6. Click `OK` on the `Anonymous Server Login` pop-up
+7. Select the `SmushLoaderino` repository and click `Next >>`
+9. Click `Finish` and wait
+10. Double click `main_1301 (Ghidra 10.1.2)` and the decompiled code will show up after loading
