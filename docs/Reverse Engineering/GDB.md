@@ -25,8 +25,8 @@ enable_standalone_gdbstub = u8!0x1
 
 ### Setting up GDB
 1. Run `sudo apt-get -y update && sudo apt-get -y install gdb-multiarch && sudo apt-get -y install wget` (this will update your repos, install gdb-multiarch, and install wget)
-2. Run `wget https://raw.githubusercontent.com/Coolsonickirby/smash-ultimate-research-setup/main/gdbinit/.gdbinit -O ~/.gdbinit && wget https://raw.githubusercontent.com/Coolsonickirby/smash-ultimate-research-setup/main/gdbinit/attach.py -O ~/attach.py` (this will download and set up the custom .gdbinit file and the associated attach.py script with it)
-3. Run `nano ~/.gdbinit` and scroll down until you get to the `target extended-remote` line
+2. Run `wget https://raw.githubusercontent.com/Coolsonickirby/smash-ultimate-research-setup/main/gdbinit/.gdbinit -O ~/.gdbinit && wget https://raw.githubusercontent.com/Coolsonickirby/smash-ultimate-research-setup/main/gdbinit/attach.py -O ~/attach.py && wget https://raw.githubusercontent.com/Coolsonickirby/smash-ultimate-research-setup/main/gdbinit/.gdbinit.switch -O ~/.gdbinit.switch && wget https://raw.githubusercontent.com/Coolsonickirby/smash-ultimate-research-setup/main/gdbinit/print_addr_setup.py -O ~/print_addr_setup.py` (this will download and set up the custom .gdbinit, .gdbinit.switch, attach.py, and print_addr_setup.py files for convenience)
+3. Run `nano ~/.gdbinit.switch` and scroll down until you get to the `target extended-remote` line
 4. Edit the IP in the file to be your switch's IP (you can find the switch's IP by going to `System Settings -> Internet -> IP Address`)
 5. Hit `Ctrl + X -> Y -> Enter`
 6. You're done, GDB is now set up with auto-attach + a handful of useful functions!
