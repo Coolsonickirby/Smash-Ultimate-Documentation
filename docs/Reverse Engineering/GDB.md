@@ -1,7 +1,7 @@
 # GDB Setup
 
 ## Disclaimer
-GDB will only work for the switch console itself! That means you cannot use an emulator (Ryujinx or Yuzu) as a subsititue!
+This guide will only cover GDB will for the switch console itself! If you want to set up GDB using an emulator, you can follow [this guide](https://luminescent.team/rom-hacking/exefs/debugging) on Luminescent Platinum documentation.
 
 ## Setup
 ### Requirements
