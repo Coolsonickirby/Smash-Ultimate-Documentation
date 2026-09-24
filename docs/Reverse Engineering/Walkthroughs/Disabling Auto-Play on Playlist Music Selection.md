@@ -7,7 +7,7 @@ This walkthrough will explain the process of using the shared Smash Ultimate Res
    - Using GDB to break at said functions and view backtraces
    - Track down the instruction which calls the function to play the music after selecting it
    - `nop`ing said instruction to prevent the song from playing after selecting it
-   - Creating a skyline plugin with our research to automatically preform the patch for us
+   - Creating a skyline plugin with our research to automatically perform the patch for us
 
 Let's get started!
 
