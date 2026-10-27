@@ -1,0 +1,90 @@
+{
+  "ui_chara_id": "ui_chara_pit_clone",
+  "pattern": 0,
+  "name_id": "pit_clone",
+  "regions": [
+    {
+      "sample_start": 11958,
+      "sample_end": 57496,
+      "left": "actor_pit_11",
+      "left_outside": "",
+      "right": "",
+      "right_outside": "",
+      "text": "Now what!?",
+      "text_delay": 0,
+      "slide_left_out": false,
+      "slide_right_out": false
+    },
+    {
+      "sample_start": 72351,
+      "sample_end": 171352,
+      "left": "",
+      "left_outside": "",
+      "right": "actor_nature_59",
+      "right_outside": "",
+      "text": "They seem to be your shadows.",
+      "text_delay": 0,
+      "slide_left_out": false,
+      "slide_right_out": false
+    },
+    {
+      "sample_start": 182690,
+      "sample_end": 291188,
+      "left": "actor_pit_07",
+      "left_outside": "",
+      "right": "",
+      "right_outside": "",
+      "text": "What!? They don't look anything like me!",
+      "text_delay": 0,
+      "slide_left_out": false,
+      "slide_right_out": true
+    },
+    {
+      "sample_start": 309560,
+      "sample_end": 432830,
+      "left": "actor_pit_06",
+      "left_outside": "",
+      "right": "",
+      "right_outside": "",
+      "text": "First of all, I'm much more attractive.",
+      "text_delay": 0,
+      "slide_left_out": false,
+      "slide_right_out": false
+    },
+    {
+      "sample_start": 443816,
+      "sample_end": 601557,
+      "left": "",
+      "left_outside": "",
+      "right": "actor_nature_55",
+      "right_outside": "",
+      "text": "Honestly, it's like you want me to insult you.",
+      "text_delay": 0,
+      "slide_left_out": false,
+      "slide_right_out": false
+    },
+    {
+      "sample_start": 608322,
+      "sample_end": 674612,
+      "left": "actor_pit_17",
+      "left_outside": "",
+      "right": "",
+      "right_outside": "",
+      "text": "No, you'd just do it anyway.",
+      "text_delay": 0,
+      "slide_left_out": false,
+      "slide_right_out": false
+    }
+  ],
+  "message_arg": {
+    "message_no": -1,
+    "delay_tag_num": 0
+  },
+  "pause_data": {
+    "unk_0x1a88779f2b": 0,
+    "unk_0x18a443ef1e": 0,
+    "sync_type": "sync_type_invalid"
+  },
+  "stream_audio": "stream:/sound/smashappeal/vc_smashappeal_angeland_pit_clone.nus3audio",
+  "stream_bank": "stream:/sound/smashappeal/vc_smashappeal_angeland_pit_clone.nus3bank"
+}

@@ -1,0 +1,18 @@
+a[href*="separator"] {
+    pointer-events: none;
+    cursor: default;
+    border-bottom: 1px solid #e0e0e0; /* Generates the visual line separator */
+    height: 0;
+    padding: 0;
+    margin: 10px 0;
+}
+
+a[href*="ignore"] {
+    pointer-events: none;
+    cursor: default;
+}
+
+img[src*="#center"] {
+    display: block;
+    margin: 0 auto;
+}

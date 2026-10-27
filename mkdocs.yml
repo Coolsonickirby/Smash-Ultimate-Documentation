@@ -27,3 +27,41 @@ nav:
     - "./Reverse Engineering/GDB.md" 
     - Walkthroughs:
       - "./Reverse Engineering/Walkthroughs/Disabling Auto-Play on Playlist Music Selection.md"
+  - The CSK Collection:
+    - "./The CSK Collection/What is the CSK Collection.md"
+    - Features:
+      - "./The CSK Collection/Unshared Final Smash Movies.md"
+      - "./The CSK Collection/Unshared Victory Cameras.md"
+      - "./The CSK Collection/Victory Themes.md"
+      - "./The CSK Collection/Unique Victory Animation Kime Frame Value.md"
+      - "./The CSK Collection/Unique Results Stage.md"
+      - "./The CSK Collection/Unshared Joker & Team Results Voice.md"
+      - Unshared "Kazuya Wins" Announcer: "./The CSK Collection/Unshared Kazuya Wins Announcer.md"
+      - "./The CSK Collection/Automatically adding new characall files.md"
+      - "./The CSK Collection/Character Database Entry Color Start.md"
+      - "./The CSK Collection/Stage Redirection.md"
+      - "./The CSK Collection/Force Stage Form.md"
+      - "./The CSK Collection/Custom Palutena Guidances.md"
+      - "./The CSK Collection/Randomize Announcer Clips.md"
+    - Flags:
+      - "./The CSK Collection/Unlock All Characters.md"
+      - "./The CSK Collection/Unlock All BGM Tracks.md"
+      - "./The CSK Collection/All Songs in Playlist.md"
+      - "./The CSK Collection/Enable Album Selector on All Stages.md"
+      - Restore Announcer First, Fighter Name Last for Victory ("The Winner Is..."): "./The CSK Collection/Restore Announcer First, Fighter Name Last for Victory.md"
+      - "./The CSK Collection/Play Music on CSS.md"
+      - "./The CSK Collection/Show Music Track on Pause.md"
+      - "./The CSK Collection/Disable K.K. Track Override.md"
+      - "./The CSK Collection/Disable VS Matchup Track from Playing.md"
+      - "./The CSK Collection/Disable Music Autoplay on Track Selection.md"
+      - "./The CSK Collection/Native Color Redirection.md"
+      - "./The CSK Collection/Last Stage as Results Stage.md"
+      - "./The CSK Collection/Unlock Final Smash, Special Hit, and Assist Camera.md"
+      - "./The CSK Collection/12-Hour Time Format in Main Menu Sidebar.md"
+      - "./The CSK Collection/One Slot Series.md"
+
+
+
+
+extra_css:
+  - styles/extra.css
