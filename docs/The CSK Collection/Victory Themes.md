@@ -1,6 +1,6 @@
 # Victory Themes Features
 
-**It's recommended to use [this unshared victory theme mod](https://gamebanana.com/mods/629194) so options to override on multiple characters.**
+**It's recommended to use [this unshared victory theme mod](https://gamebanana.com/mods/629194) so options don't apply to characters that share the same victory theme file.**
 
 The features related to the victory theme are conglomerated to this page. You can get the list of all victory themes from [here](https://smashultimatetools.com/index.php?page=audio) (make sure to click `More Options` and select `Victory Themes`)
 
